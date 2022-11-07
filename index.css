@@ -1,0 +1,304 @@
+body{
+    background: #dcdcdc;
+} 
+#heades{
+    margin: -25px 0 0 -8px;
+}
+/*started header*/
+header{
+    width        :  100%; 
+    height       :  85px;
+    background   :  black; 
+    color        :  aliceblue;
+    margin       :  -10px;
+    padding      :  5.5px ;
+    position     :  fixed;
+    z-index      :  999;
+
+      }
+
+header span{
+       color          :     beige;
+       font-size      :     20px;
+       padding-left   :     5px;
+       text-shadow    :     5px -4px 2.5px beige;
+
+          }
+
+d{   
+     color        :   #ffff00;
+     font-size    :   30px;
+     text-shadow  :   -7px -4px 3.5px #ffff00; 
+
+ }
+
+ #form1 > input { 
+    padding-left: 5px;
+    border-radius: 5px 0px 0px 5px;
+    height: 23px;
+    position: relative;
+    bottom: 5px;
+         
+}
+
+#form1 > button{ 
+     padding-left     :  5px;
+     border-radius    :  0px 5px 5px 0px; 
+     margin-left      :  -1.1mm ;
+     border-left      :  0px;
+     height           : 25px;
+     background-color       : none; 
+}
+
+.span{
+       padding-top    :  1px ;
+       padding-left   :  5px ;
+       display        :  inline-block;
+     
+}
+
+#btn,#xbtn{
+         padding-right   :    2.5px;               
+         cursor          :    pointer;
+         border-radius   :    10px;
+         color           :    #383535;
+         background      :    #f4eeee;
+         margin          : 5px -3px 0px 5px;
+         position        : relative;
+         bottom          : 5px;
+}      
+
+#btn:hover,#xbtn:hover{
+       padding-right :   2.5px;               
+       cursor        :   pointer;      
+       border-radius :   10px;
+       color         :   white;
+       background    :   black;
+}      
+/* login  and singin S */
+/* ========================= */
+.modal,.xmodal {
+        display               : none;
+        /* position              : fixed;
+        z-index               : 1; */
+        padding-top           : 100px;
+        left                  : 0;
+        top                   : 0;
+        width                 : 100%;
+        height                : 515px;
+        overflow              : auto;
+        background-color      : rgb(0,0,0);
+        background-color      : rgba(0,0,0,0.4);
+}
+.modal-content {
+         /* position                      : relative; */
+            margin                        : auto;
+            padding                       : 0;
+            width                         : 30%;
+            height                        : 340px;
+            -webkit-animation-name        : animatetop;
+            -webkit-animation-duration    : 0.4s;
+            animation-name                : animatetop;
+            animation-duration            : 0.4s;
+            background-image              : url(img/11.jpg);
+}
+
+.xmodal-content {
+    position: relative;
+    margin: -87px 0px 0px 350px;
+    padding: 0;
+    width: 30%;
+    height: 472px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background-image: url(img/11.jpg);
+}
+
+@keyframes animatetop {
+    from {top       :-300px; 
+          opacity   :0}
+    to {  top       :0;
+          opacity   :1}
+} 
+#txet {
+        color       : black;
+        text-align  : center;
+}
+.close {
+                color       : rgb(255, 0, 0);
+                width       : 5px;
+                padding     : 5px 30px 5px 30px;
+                float       : right;
+                margin      : -260px -25px 0px 0px;
+} 
+.xclose {
+    color       : rgb(255, 0, 0);
+    width       : 5px;
+    padding     : 5px 30px 5px 30px;
+    float       : right;
+    margin      : -400px -25px 0px 0p;
+}
+.modal-header {
+                padding        : 2px 16px;
+                color          : #ff0000;
+                margin-right   : 5px;
+                margin-left    : 5px;
+                border-bottom  : 1px solid #000000;
+}
+.modal-body {
+            padding              : 20px;
+            background-position  :center ;
+}
+#bu{
+            color          : black;
+            background     : #4eea85d1;
+            border         : 2px solid rgb(180 214 148);
+            border-radius  : 5px;
+            padding        : 5px 30px 5px 30px;
+            float          : right;
+            margin         : 5px 70px 0px 0px; 
+            cursor         : pointer;
+
+}
+.inp{
+            
+    background: rgba(255, 250, 250, 0.404);
+    border: 5px solid rgba(0, 0, 0, 0.651);
+    margin: -10px 0px 0px 75px;
+    border-radius: 15px;
+    height: 25px;
+}
+/* ========================= */
+/* login and singin E */
+/*end header*/
+
+/*started nav*/
+
+nav{ float  :  right;  }
+
+nav a{ 
+       text-decoration  :   none;
+       color            :   red; 
+}
+
+nav a:hover{ 
+             text-decoration  :   none;
+             color            :   yellow; 
+}
+
+nav > ul{    margin  :  -20px 15px 0px 0px ; }
+
+nav li { 
+         display       :   inline-block;
+         margin-right  :   4px;
+         background    :   none ;
+}
+
+nav li:hover {
+       display       :     inline-block;
+       margin-right  :     4px;
+       background    :     rgb(115, 174, 188);
+       height        :     30px ; 
+       line-height   :     26px;
+       background    :     rgb(115, 174, 188); border-radius :     34px; 
+       padding       :     5px; 
+
+        }
+/*====================================================*/
+
+        #li1{ 
+              background      : rgb(115, 174, 188); border-radius   : 34px;
+              padding         : 5px ;
+              color           : yellow;
+}
+
+/*====================================================*/
+    
+    #li2{ 
+        background         : rgb(115, 174, 188);
+        border-radius      : 34px; 
+        padding            : 5px;
+        
+}
+
+/*====================================================*/
+
+     #li3{ 
+         background     : rgb(115, 174, 188); border-radius  : 34px;
+         padding        : 5px;
+}
+
+/*====================================================*/
+
+    #li4{ 
+        background     : rgb(115, 174, 188);
+        border-radius  : 34px; 
+        padding        : 5px;
+}
+
+/*====================================================*/
+
+    #li5{ 
+        background     : rgb(115, 174, 188);
+        border-radius  : 34px; 
+        padding        : 5px;
+}
+
+/*===================================================
+
+.spanimg h3{  text-align  : center; }
+
+#wow{ 
+    padding-top  : 100px; 
+
+}
+
+/*end main*/
+
+/*start footer*/
+
+footer{ 
+     background     : #000000; 
+     color          : aliceblue;
+     margin         : 50px -10px 0px -6px;
+     padding        : 5px 3px 2px 0px ;
+    
+}
+
+footer > a, footer > p >a{
+              color : rgba(4, 255, 120, 0.71) ; 
+              padding-left : 10px;
+}
+
+#p { 
+    padding     : 5px ; 
+    color       : #7ec1a7;
+    text-align  : center;
+}
+
+#img{ 
+      width           : 30px;
+      border-radius   : 40px; 
+
+}
+
+lll{ 
+    padding        : 19px 5px 5px 0px; 
+    margin         : 0px 12px 0px 12px;
+    border-radius  : 15px;
+}
+
+#fu{ width          : 30px;
+     border-radius  : 7px;
+ }
+
+footer > a{ text-decoration: none }
+#des{
+    background: white;
+    border-radius  : 15px;
+    width: 30px;
+}
+
+/*end footer*/
